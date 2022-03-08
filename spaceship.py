@@ -321,8 +321,9 @@ def draw(canvas):
         my_ship.pos = [WIDTH / 2, HEIGHT / 2]
         my_ship.vel = [0, 0]
         soundtrack.pause()
-        for i in rock_group:
+        for i in list(rock_group):
             rock_group.discard(i)
+        timer.stop()
     
     
 
