@@ -5,4 +5,4 @@ This game was developed during the Coursera course "An Introduction to Python", 
 Unfortunately I did not know about Github around that time.
 
 With the intention to start using git/GitHub actively from now on, the game was uploaded.
-In addition, some minor errors were found and commented out, I will try to fix them with some time and commit any changes, seizing the opportunity to use both git/GitHub and Python
+A new branch was created to fix a few minor bugs (see first commits). Tests were performed and meanwhile the branch was pushed (just in case the tests took long, days, etc). Once changes were validated, branch was merged into main and pushed upstream.
