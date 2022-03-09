@@ -323,7 +323,6 @@ def draw(canvas):
         soundtrack.pause()
         for i in list(rock_group):
             rock_group.discard(i)
-        timer.stop()
     
     
 
@@ -360,3 +359,4 @@ timer = simplegui.create_timer(1000.0, rock_spawner)
 # get things rolling
 timer.start()
 frame.start()
+timer.stop()
